@@ -1,4 +1,4 @@
-%Domaèa naloga 1 - 1. naloga
+%DomaÃ¨a naloga 1 - 1. naloga
 
 A = 2*eye(100,100);
 for i = 1:99
