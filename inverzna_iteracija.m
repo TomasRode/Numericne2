@@ -13,8 +13,8 @@ function [x, lambda, k] = inverzna_iteracija(A, sigma, z0, tol, N)
   s = z0'*y;
   while (norm(y - s*z) > tol) and (k < N);
     y = (A - sigma*eye(size(A)(1))) \ z;
-    s = z'*y;
     z = y/norm(y);
+    s = z'*y;
     k = k+1;
   endwhile
   
