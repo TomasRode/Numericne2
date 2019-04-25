@@ -17,4 +17,4 @@ end
 
 F = f(linspace(0,1,101));
 R = abs(F - P);
-r = max(R)
+r = max(R);

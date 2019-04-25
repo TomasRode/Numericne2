@@ -12,5 +12,5 @@ while k < st_ponovitev && any(abs(diag(A, -1)) >=tol)
     
 end
 st_korakov = k;
-M=A
+M=A;
 end

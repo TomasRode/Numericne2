@@ -19,8 +19,10 @@ hold on
 plot(z,w)
 
 st_tock = 20;
+S = [];
 for i = 1:n
   v = linspace(X(i), X(i+1), st_tock);
+  S(i) = horner(tocke(2*i-1:2*i+2),P(:,i),(X(i)+X(i+1))/2 );
   %2*i-1,2*i-1+3
   vrednosti = [];
   for k = 1 : st_tock
